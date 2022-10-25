@@ -1,0 +1,40 @@
+body {background-color: rgb(10, 10, 10);
+    color: rgb(249, 155, 155);
+    font-family: 'Poppins', sans-serif;}
+header {background-color: rgb(215, 147, 249);
+        text-align: center;
+        padding: 20px;}
+h2, p{padding: 10px 20px 5px 30px;
+      font-size: 20px;}
+h2 {border: 15px solid rgb(19, 41, 152);
+     padding: 5px;}
+     /*width: 30%;*/
+.pie {background-color: rgb(244, 125, 138);
+        color: rgb(147, 245, 244);
+        text-align: center;
+        padding: 20px;}
+.centrar {display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+          padding-top: 10px;
+          padding-left: 5px;}
+nav {overflow: hidden;
+    background-color: #89caeb;
+    padding: 20px 10px;}
+
+nav a {float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;}
+nav a.logo{font-size: 25px;
+            font-weight: bold;}
+nav a:hover{background-color: blueviolet;
+            color:black}
+nav a.active{background-color: blueviolet;
+            color: rgb(247, 238, 238);}
+.header-rigth{float: right;}

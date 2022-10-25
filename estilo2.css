@@ -1,0 +1,17 @@
+body{
+    margin: 5px;
+    background-color: black;
+    color: rgb(122, 235, 235);
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(20px auto);
+    padding: 20px;
+}
+.contenedor div{
+    background-color: rgb(246, 20, 20);
+    color: rgb(32, 32, 234);
+    padding: 2em;
+}
